@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".ActividadUnoFirstActivity">
+
+    <EditText
+        android:id="@+id/name"
+        android:hint="@string/phName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:inputType="text"
+        android:maxLength="20"
+        />
+
+    <EditText
+        android:id="@+id/last_name"
+        android:hint="@string/phLName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_margin="20dp"
+        android:inputType="text"
+        android:maxLength="40"
+        />
+
+    <EditText
+        android:id="@+id/age"
+        android:hint="@string/phAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/last_name"
+        android:layout_margin="20dp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:text="@string/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/age"
+        android:layout_margin="20dp" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PrimerProyecto</string>
+    <string name="btnSend">Enviar</string>
+    <string name="phName">Nombre</string>
+    <string name="phLName">Apellido(s)</string>
+    <string name="phAge">Edad</string>
+</resources>
