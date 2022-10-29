@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -15,6 +14,7 @@
         android:layout_margin="20dp"
         android:inputType="text"
         android:maxLength="20"
+        android:importantForAutofill="no"
         />
 
     <EditText
@@ -22,10 +22,10 @@
         android:hint="@string/phLName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/name"
         android:layout_margin="20dp"
         android:inputType="text"
         android:maxLength="40"
+        android:importantForAutofill="no"
         />
 
     <EditText
@@ -33,16 +33,15 @@
         android:hint="@string/phAge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/last_name"
         android:layout_margin="20dp"
-        android:inputType="number" />
+        android:inputType="number"
+        android:importantForAutofill="no" />
 
     <Button
         android:id="@+id/btn_send"
         android:text="@string/btnSend"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/age"
         android:layout_margin="20dp" />
 
 </LinearLayout>
