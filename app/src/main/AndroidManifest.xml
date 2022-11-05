@@ -14,8 +14,8 @@
         android:theme="@style/Theme.PrimerProyecto"
         tools:targetApi="31">
         <activity
-            android:name=".layouts.RecyclerViewActivity"
-            android:exported="true">
+            android:name=".fragments.FragmentManagerActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,9 +23,17 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".fragments.FragmentActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".layouts.TapsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".layouts.RecyclerViewActivity"
+            android:exported="true" />
+        <activity
             android:name=".layouts.RelativeActivity"
-            android:exported="false"/>
-
+            android:exported="false" />
         <activity
             android:name=".ActividadUnoSecondActivity"
             android:exported="false" />

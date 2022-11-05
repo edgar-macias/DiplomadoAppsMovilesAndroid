@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import models.UserItem
 import mx.emp.primerproyecto.R
 
-class UserAdapter(private val items : ArrayList<UserItem>) : RecyclerView.Adapter<UserAdapter.UserViewHolder>(){
+class UserAdapter(private val items : ArrayList<UserItem>,private val listener: RecyclerItemListener) : RecyclerView.Adapter<UserAdapter.UserViewHolder>(){
 
     class UserViewHolder(view:View) : RecyclerView.ViewHolder(view){
         val name : TextView
@@ -28,6 +28,9 @@ class UserAdapter(private val items : ArrayList<UserItem>) : RecyclerView.Adapte
 
     override fun onBindViewHolder(holder: UserViewHolder, position: Int) {
         holder.name.text = items[position].name
+        holder.itemView.setOnClickListener{
+            listener.onItemSelected(items[position])
+        }
     }
 
     override fun getItemCount(): Int {

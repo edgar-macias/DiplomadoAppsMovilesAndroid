@@ -17,7 +17,7 @@
             <ImageView
                 android:id="@+id/ivLogo"
                 android:contentDescription="@string/relativeTitle"
-                android:src="@mipmap/ic_launcher"
+                android:src="@drawable/ic_img_placeholder"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <TextView
@@ -26,6 +26,7 @@
                 android:layout_height="wrap_content"
                 tools:text="Texto Prueba"
                 android:textSize="25sp"
+                android:fontFamily="@font/bernier_shade_regular"
                 android:layout_toEndOf="@id/ivLogo"
                 android:layout_centerVertical="true"
                 android:layout_marginStart="10dp"/>

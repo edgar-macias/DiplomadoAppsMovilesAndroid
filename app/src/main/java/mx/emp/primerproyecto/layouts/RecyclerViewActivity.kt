@@ -2,21 +2,28 @@ package mx.emp.primerproyecto.layouts
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
+import androidx.recyclerview.widget.DefaultItemAnimator
+import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import models.UserItem
 import mx.emp.primerproyecto.R
 
-class RecyclerViewActivity : AppCompatActivity() {
+class RecyclerViewActivity : AppCompatActivity(),RecyclerItemListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recycler_view)
 
         val list = findViewById<RecyclerView>(R.id.list)
 
-        val userAdapter = UserAdapter(getData())
+        val userAdapter = UserAdapter(getData(),this)
 
         list.layoutManager = LinearLayoutManager(this,RecyclerView.VERTICAL,false)
+
+        list.addItemDecoration(DividerItemDecoration(this,RecyclerView.VERTICAL))
+        list.itemAnimator = DefaultItemAnimator()
+
         list.adapter = userAdapter
     }
 
@@ -36,4 +43,10 @@ class RecyclerViewActivity : AppCompatActivity() {
 
         return data
     }
+
+    override fun onItemSelected(user: UserItem) {
+        Toast.makeText(this,"User:${user.name}",Toast.LENGTH_SHORT).show()
+    }
+
+
 }
