@@ -14,10 +14,7 @@
         android:theme="@style/Theme.PrimerProyecto"
         tools:targetApi="31">
         <activity
-            android:name=".ActividadUnoSecondActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ActividadUnoFirstActivity"
+            android:name=".layouts.RecyclerViewActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,11 +23,21 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".layouts.RelativeActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ActividadUnoSecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActividadUnoFirstActivity"
+            android:exported="false" />
+        <activity
             android:name=".ExplicitDetailActivity"
             android:exported="false" />
         <activity
             android:name=".ExplicitActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".ImplicitActivity"
             android:exported="false" />

@@ -4,4 +4,8 @@
     <string name="phName">Nombre</string>
     <string name="phLName">Apellido(s)</string>
     <string name="phAge">Edad</string>
+    <string name="relativeTitle">Texto dentro de RelativeLayout</string>
+    <string name="checkText">Tienes tarjeta de credito?</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
 </resources>

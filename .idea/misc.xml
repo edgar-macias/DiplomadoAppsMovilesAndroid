@@ -3,12 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Estudio/PrimerProyecto/app/src/main/res/layout/activity_actividad_dos_general_view.xml" value="0.18802083333333333" />
         <entry key="..\:/Estudio/PrimerProyecto/app/src/main/res/layout/activity_actividad_uno_first.xml" value="0.18802083333333333" />
         <entry key="..\:/Estudio/PrimerProyecto/app/src/main/res/layout/activity_actividad_uno_second.xml" value="0.175" />
         <entry key="..\:/Estudio/PrimerProyecto/app/src/main/res/layout/activity_explicit.xml" value="0.2586050724637681" />
         <entry key="..\:/Estudio/PrimerProyecto/app/src/main/res/layout/activity_explicit_detail.xml" value="0.1" />
         <entry key="..\:/Estudio/PrimerProyecto/app/src/main/res/layout/activity_implicit.xml" value="0.17831813576494426" />
         <entry key="..\:/Estudio/PrimerProyecto/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Estudio/PrimerProyecto/app/src/main/res/layout/activity_recycler_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Estudio/PrimerProyecto/app/src/main/res/layout/activity_relative.xml" value="0.36666666666666664" />
+        <entry key="..\:/Estudio/PrimerProyecto/app/src/main/res/layout/fragment_item_list.xml" value="0.17395833333333333" />
+        <entry key="..\:/Estudio/PrimerProyecto/app/src/main/res/layout/recyclerview_item_user.xml" value="0.365625" />
       </map>
     </option>
   </component>
