@@ -28,7 +28,7 @@ class RecyclerViewActivity : AppCompatActivity(),RecyclerItemListener {
     }
 
     private fun getData():ArrayList<UserItem>{
-        val data = arrayListOf<UserItem>();
+        val data = arrayListOf<UserItem>()
 
         data.add(UserItem("Edgar",""))
         data.add(UserItem("Jose",""))
