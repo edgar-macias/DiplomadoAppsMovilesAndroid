@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="mx.emp.primerproyecto">
-
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,20 +14,23 @@
         android:theme="@style/Theme.PrimerProyecto"
         tools:targetApi="31">
         <activity
+            android:name=".clase3.BottomNavigationActivity"
+            android:exported="false" />
+        <activity
             android:name=".actividad_dos.ActividadDosActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".actividad_tres.ActividadTresActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
         </activity>
         <activity
             android:name=".fragments.FragmentManagerActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".fragments.FragmentActivity"
             android:exported="true" />

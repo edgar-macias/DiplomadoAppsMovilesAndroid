@@ -10,9 +10,24 @@
     <string name="femenino">Femenino</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="img_animal">Imagen del animal a mostrar</string>
     <string name="hasSickness">¿Tiene alguna enfermedad?</string>
     <string name="img_not_found">Imagen no encontrada</string>
     <string name="macho">Macho</string>
     <string name="hembra">Hembra</string>
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_home">Opcion 1</string>
+    <string name="title_dashboard">Opcion 2</string>
+    <string name="title_notifications">Opcion 3</string>
+    <string name="primer_fragment">Primer Fragment</string>
+    <string name="segundo_fragment">Segundo Fragment</string>
+    <string name="tercer_fragment">Tercer Fragment</string>
+    <string name="add_animal">Agregar Animal</string>
+    <string name="sin_asignar">Sin Asignar</string>
+    <string name="delete">Eliminar</string>
+    <string name="update">Actualizar</string>
+    <string name="name">Nombre</string>
+    <string name="url_image">Url imagen</string>
+    <string name="description">Descripcion</string>
+    <string name="img_animal">Imagen del animal</string>
+    <string name="no_animal_data_available">No haz agregado ningun animal</string>
 </resources>
