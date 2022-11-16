@@ -76,6 +76,8 @@ class AnimalDetailDosFragment : Fragment() {
             if(animalSqlModel!==null){
                 animalDBHelper.deleteUser(animalSqlModel!!.id)
                 btnDelete.isEnabled = false
+                parentFragmentManager.beginTransaction()
+                    .replace(R.id.actividadTresContainer,AnimalListDosFragment()).commit()
             }
         }
 
